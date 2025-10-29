@@ -1,0 +1,37 @@
+{
+  "slides_placeholders": {
+    "{{month}}": "{{month}}",
+    "{{budget_total}}": "{{budget_total}}",
+    "{{actual_total}}": "{{actual_total}}",
+    "{{variance_total}}": "{{variance_total}}",
+    "{{variance_pct}}": "{{variance_total_pct}}",
+    "{{sales_budget}}": "{{Sales_budget}}",
+    "{{sales_actual}}": "{{Sales_actual}}",
+    "{{ops_budget}}": "{{Ops_budget}}",
+    "{{ops_actual}}": "{{Ops_actual}}",
+    "{{rnd_budget}}": "{{R&D_budget}}",
+    "{{rnd_actual}}": "{{R&D_actual}}",
+    "{{narrative}}": "{{narrative_text}}"
+  },
+  "notion_properties": [
+    "Month (Title)",
+    "Budget Total (GBP)",
+    "Actual Total (GBP)",
+    "Variance (GBP)",
+    "Variance (%)",
+    "Sales (Budget)",
+    "Sales (Actual)",
+    "Ops (Budget)",
+    "Ops (Actual)",
+    "R&D (Budget)",
+    "R&D (Actual)",
+    "Narrative (rich text)",
+    "Slides URL",
+    "PPTX URL"
+  ],
+  "openai_prompts": {
+    "system": "You are a CFO writing a crisp monthly Revenue vs Budget commentary for the Board pack. Use UK spelling and GBP currency symbols. Be specific and data-driven. Call out any department with variance magnitude > 5% (favourable/unfavourable). Finish with 3 bullet recommendations.",
+    "user_template": "Month: {{month}}\\nTotals:\\n- Budget: \u00a3{{budget_total}}\\n- Actual: \u00a3{{actual_total}}\\n- Variance: \u00a3{{variance_total}} ({{variance_total_pct}})\\nDepartments:\\n- Sales: Budget \u00a3{{Sales_budget}}, Actual \u00a3{{Sales_actual}}\\n- Ops: Budget \u00a3{{Ops_budget}}, Actual \u00a3{{Ops_actual}}\\n- R&D: Budget \u00a3{{R&D_budget}}, Actual \u00a3{{R&D_actual}}\\nWrite 120\u2013180 words."
+  },
+  "slack_message_template": "**Revenue vs Budget \u2014 {{month}} (GBP)**\nActual \u00a3{{actual_total}} | Budget \u00a3{{budget_total}} | Variance \u00a3{{variance_total}} ({{variance_total_pct}})\n- Sales: \u00a3{{Sales_actual}} vs \u00a3{{Sales_budget}}\n- Ops: \u00a3{{Ops_actual}} vs \u00a3{{Ops_budget}}\n- R&D: \u00a3{{R&D_actual}} vs \u00a3{{R&D_budget}}\nNarrative: {{narrative_text}}\nLinks:\n\u2022 Notion: {{notion_page_url}}\n\u2022 Slides: {{slides_url}}\n\u2022 PowerPoint (.pptx): {{pptx_url}}"
+}
