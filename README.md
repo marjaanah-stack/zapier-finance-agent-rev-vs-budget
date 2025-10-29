@@ -78,15 +78,32 @@ zapier-finance-agent-rev-vs-budget/
 
 ---
 
-## Screenshot Plan
+## 📸 Screenshot Gallery
 
-Add real screenshots using these filenames (placeholders included in `/screenshots`):
-1. `01_sheets_data_tabs.png` — Sheets Budget/Actuals tabs
-2. `02_zapier_tools_config.png` — Agent tools list
-3. `03_zapier_instructions_panel.png` — Instructions visible
-4. `04_zapier_run_activity.png` — Successful run steps
-5. `05_google_slides_generated_deck.png` — Filled deck
-6. `06_slack_summary_message.png` — Slack summary
+1️⃣ **Google Sheets — Data Tabs**  
+Transactions, controls, and forecast output combined.  
+![Sheets](screenshots/01_sheets_data_tabs.png)
+
+2️⃣ **Zapier Agent — Tools Configuration**  
+Connected tools: Sheets · ChatGPT · Slides · Drive · Notion · Slack.  
+![Tools](screenshots/02_zapier_tools_config.png)
+
+3️⃣ **Zapier Agent — Instructions Panel**  
+The “Instructions to follow” box showing the Finance logic.  
+![Instructions](screenshots/03_zapier_instructions_panel.png)
+
+4️⃣ **Zapier Agent — Run Activity**  
+Execution flow: rows read → forecast generated → Slides created → Slack posted.  
+![Run](screenshots/04_zapier_run_activity.png)
+
+5️⃣ **Google Slides — Generated Deck**  
+Automated revenue vs budget presentation created via the Slides API.  
+![Slides](screenshots/05_google_slides_generated_deck.png)
+
+6️⃣ **Slack — Summary Message**  
+Slack summary confirming forecast results and log completion.  
+![Slack](screenshots/06_slack_summary_message.png)
+
 
 ---
 
