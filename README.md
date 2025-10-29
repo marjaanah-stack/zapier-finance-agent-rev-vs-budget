@@ -103,8 +103,13 @@ Automated revenue vs budget presentation created via the Slides API.
 6️⃣ **Slack — Summary Message**  
 Slack summary confirming forecast results and log completion.  
 ![Slack](screenshots/06_slack_summary_message.png)
+---
 
+## 👩‍💼 Author
 
+**Marjaana Peeters**  
+AI-savvy Finance Leader  
+🌐 LinkedIn: www.linkedin.com/in/marjaana-peeters-0442a4  
 ---
 
 ## License
