@@ -108,7 +108,7 @@ Slack summary confirming forecast results and log completion.
 ## 👩‍💼 Author
 
 **Marjaana Peeters**  
-AI-savvy Finance Leader  
+AI-loving Finance Leader  
 🌐 LinkedIn: www.linkedin.com/in/marjaana-peeters-0442a4  
 
 ---
